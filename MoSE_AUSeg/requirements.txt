@@ -1,0 +1,13 @@
+python=3.9
+conda install pytorch==2.1.2 torchvision==0.16.2 torchaudio==2.1.2 pytorch-cuda=11.8 -c pytorch -c nvidia
+pip install h5py
+pip install scikit-learn
+pip install pydicom 
+pip install tqdm
+pip install tensorboard
+pip install Cython
+pip install POT==0.4.0
+pip install numpy==1.24.3
+pip install opencv-python
+pip install nibabel
+pip install scikit-image
