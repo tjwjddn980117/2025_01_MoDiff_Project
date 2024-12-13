@@ -1,0 +1,10 @@
+training: 
+
+python main.py experiments/lidc_proposed.py
+python main_msmri.py experiments/msmri_proposed.py
+
+
+sampling:
+
+python main.py experiments/lidc_proposed.py --demo test
+python main_msmri.py experiments/msmri_proposed.py --demo test
